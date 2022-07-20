@@ -18,7 +18,6 @@ function LandingPage() {
 
     }, [])
 
-
     const fetchMovies = (endpoint) => {
         fetch(endpoint)
             .then(response => response.json())
