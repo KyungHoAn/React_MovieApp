@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { List, Avatar, Row, Col, Button } from 'antd';
 import axios from 'axios';
 
-
 // import Comments from './Sections/Comments'
 // import LikeDislikes from './Sections/LikeDislikes';
 import { API_URL, API_KEY, IMAGE_BASE_URL } from '../../Config'
@@ -109,6 +108,7 @@ function MovieDetailPage(props) {
                         }
                     </Row>
                 }
+                
                 <br />
 
                 {/* <div style={{ display: 'flex', justifyContent: 'center' }}>
